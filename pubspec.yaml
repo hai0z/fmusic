@@ -1,0 +1,30 @@
+name: fmusic
+description: "A new Flutter project."
+publish_to: "none"
+version: 0.1.0
+
+environment:
+  sdk: ^3.9.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  crypto: ^3.0.3
+  dio: ^5.4.0
+  dio_cookie_manager: ^3.1.1
+  cookie_jar: ^4.0.8
+  just_audio: ^0.9.40
+  just_audio_background: ^0.0.1-beta.13
+  just_audio_windows: ^0.2.2
+  audio_session: ^0.1.21
+  provider: ^6.1.2
+  cached_network_image: ^3.3.1
+  palette_generator: ^0.3.3+4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
